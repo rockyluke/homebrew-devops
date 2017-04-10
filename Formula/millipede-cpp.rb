@@ -1,13 +1,18 @@
 # -*- ruby -*-
 
-class MillipedeC < Formula
+class MillipedeCpp < Formula
   desc "Print a beautiful millipede."
-  homepage "https://github.com/getmillipede/millipede-c"
-  url ""
+  version "1.0.0"
+  homepage "https://github.com/getmillipede/millipede-cpp/"
+  url "https://github.com/getmillipede/millipede-cpp/archive/v#{version}.tar.gz"
   sha256 ""
 
-  test do
-    system "#{bin}/millipede-c --help"
+  depends_on "cmake" => :build
+
+  def install
+    system "cmake", "CMakeLists.txt"
+    system "make"
+    bin.install "millipede-cpp"
   end
 end
 # EOF

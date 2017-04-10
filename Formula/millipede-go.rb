@@ -4,8 +4,9 @@ require "language/go"
 
 class MillipedeGo < Formula
   desc "Print a beautiful millipede."
+  version "1.3.0"
   homepage "https://github.com/getmillipede/millipede-go"
-  url "https://github.com/getmillipede/millipede-go/archive/v1.3.0.tar.gz"
+  url "https://github.com/getmillipede/millipede-go/archive/v#{version}.tar.gz"
   sha256 "643b23c486ec887bdf2d071692a4e5baecb65d5b6a70fb5c135bedaf653180ca"
 
   depends_on "go" => :build
