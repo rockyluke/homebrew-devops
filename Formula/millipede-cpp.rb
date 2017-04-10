@@ -8,7 +8,6 @@ class MillipedeCpp < Formula
   sha256 ""
 
   depends_on "cmake" => [:build, "without-docs"]
-  depends_on "sphinx-doc" => :optional
 
   def install
     system "cmake", "CMakeLists.txt"
