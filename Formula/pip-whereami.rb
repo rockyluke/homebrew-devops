@@ -13,6 +13,11 @@ class PipWhereami < Formula
 
   resource "access_points" do
     url "https://pypi.python.org/packages/69/15/b71bbe5fe766ba322f7bbb7a1e417c6e80a61fddeb60543965e935aae31c/access_points-0.3.52.tar.gz"
+    sha256 "e5e872b276d3642a5f0f9214aee4f53839ec9ff5d06f56da74a1a372305fba6e"
+  end
+
+  resource "tqdm" do
+    url "https://pypi.python.org/packages/46/b0/615b394ac0b25f1f1ef229e223c335558d69db97301c93e932fb7e5e4679/tqdm-4.11.2.tar.gz"
     sha256 ""
   end
 
