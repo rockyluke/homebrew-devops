@@ -18,7 +18,7 @@ class PipWhereami < Formula
 
   resource "scikit-learn" do
     url "https://pypi.python.org/packages/f1/dc/5fb2834511eef6f86e17b6ec41c0c7a60733f79633827e75aaa55029a9fa/scikit-learn-0.18.1.tar.gz"
-    sha256 ""
+    sha256 "1eddfc27bb37597a5d514de1299981758e660e0af56981c0bfdf462c9568a60c"
   end
 
   resource "tqdm" do
