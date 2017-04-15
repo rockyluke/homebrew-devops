@@ -10,12 +10,16 @@ before_install:
 install:
   - brew install i2cssh
   - brew install puppet-lint
+  - brew install pylint
   - brew install rubocop
+  - brew install yamllint
 
 script:
   - brew test i2cssh
   - brew test puppet-lint
+  - brew test pylint
   - brew test rubocop
+  - brew test yamllint
 
 notifications:
   email:
