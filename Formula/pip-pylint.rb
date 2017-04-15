@@ -12,8 +12,8 @@ class PipPylint < Formula
   depends_on :python3
 
   resource "astroid" do
-    url "https://github.com/timothycrosley/isort/archive/4.2.5.tar.gz"
-    sha256 "d055e9697c3d12e2f9a67691853f19b39d694a6bc533ebcd21c5e609d67c597f"
+    url "https://pypi.python.org/packages/64/2b/b61398454f3f64c00c88d5858d857b385c1a4dd3445f36247ba8bc74678f/astroid-1.5.1.tar.gz"
+    sha256 "b1d87cbb3dbcca64f8fb8252d2a6650c3bf7b1fc6516831c1b63462d965f2af7"
   end
 
   resource "editdistance" do
