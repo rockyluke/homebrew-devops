@@ -31,6 +31,11 @@ class PipPylint < Formula
     sha256 "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"
   end
 
+  resource "wrapt" do
+    url "https://pypi.python.org/packages/a3/bb/525e9de0a220060394f4aa34fdf6200853581803d92714ae41fc3556e7d7/wrapt-1.10.10.tar.gz"
+    sha256 "42160c91b77f1bc64a955890038e02f2f72986c01d462d53cb6cb039b995cdd9"
+  end
+
   def install
     virtualenv_install_with_resources
     # venv = virtualenv_create(libexec)
