@@ -16,6 +16,11 @@ class PipPylint < Formula
     sha256 "d055e9697c3d12e2f9a67691853f19b39d694a6bc533ebcd21c5e609d67c597f"
   end
 
+  resource "editdistance" do
+    url "https://pypi.python.org/packages/a8/08/97ed5b60023ab4b67a46ee24bf1d3db93a9abc5b3be7e8f90de18160aaed/editdistance-0.3.1.tar.gz"
+    sha256 "8ec8a2158b9234adb0ca7ecfb0b4caa35e45ad5d00353c80793c9f54e1a35121"
+  end
+
   resource "isort" do
     url "https://github.com/timothycrosley/isort/archive/4.2.5.tar.gz"
     sha256 "d055e9697c3d12e2f9a67691853f19b39d694a6bc533ebcd21c5e609d67c597f"
