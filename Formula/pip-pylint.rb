@@ -23,7 +23,7 @@ class PipPylint < Formula
 
   resource "isort" do
     url "https://pypi.python.org/packages/70/65/49f66364f4ac551ec414e88537b02be439d1d9ea7e1fdd6d526fb8796bf9/isort-4.2.5.tar.gz"
-    sha256 "d055e9697c3d12e2f9a67691853f19b39d694a6bc533ebcd21c5e609d67c597f"
+    sha256 "56b20044f43cf6e6783fe95d054e754acca52dd43fbe9277c1bdff835537ea5c"
   end
 
   resource "lazy-object-proxy" do
