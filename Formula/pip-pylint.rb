@@ -14,9 +14,14 @@ class PipPylint < Formula
     sha256 "d055e9697c3d12e2f9a67691853f19b39d694a6bc533ebcd21c5e609d67c597f"
   end
 
+  resource "backports.functools_lru_cache" do
+    url "https://github.com/jaraco/backports.functools_lru_cache/archive/1.3.tar.gz"
+    sha256 "cd63e58510a2aa0b020595bff195e3c269dd0926dc631c0a2e45a092906aee3c"
+  end
+
   resource "configparser" do
     url "https://pypi.python.org/packages/7c/69/c2ce7e91c89dc073eb1aa74c0621c3eefbffe8216b3f9af9d3885265c01c/configparser-3.5.0.tar.gz"
-    sha256 ""
+    sha256 "5308b47021bc2340965c371f0f058cc6971a04502638d4244225c49d80db273a"
   end
 
   resource "isort" do
