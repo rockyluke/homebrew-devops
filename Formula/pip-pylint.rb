@@ -32,6 +32,7 @@ class PipPylint < Formula
   def install
     venv = virtualenv_create(libexec)
     venv.pip_install resource("astroid")
+    venv.pip_install resource("backports.functools_lru_cache")
     venv.pip_install resource("configparser")
     venv.pip_install resource("isort")
     venv.pip_install_and_link buildpath
