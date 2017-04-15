@@ -16,9 +16,14 @@ class PipWhereami < Formula
     sha256 "e5e872b276d3642a5f0f9214aee4f53839ec9ff5d06f56da74a1a372305fba6e"
   end
 
+  resource "scikit-learn" do
+    url "https://pypi.python.org/packages/f1/dc/5fb2834511eef6f86e17b6ec41c0c7a60733f79633827e75aaa55029a9fa/scikit-learn-0.18.1.tar.gz"
+    sha256 ""
+  end
+
   resource "tqdm" do
     url "https://pypi.python.org/packages/46/b0/615b394ac0b25f1f1ef229e223c335558d69db97301c93e932fb7e5e4679/tqdm-4.11.2.tar.gz"
-    sha256 ""
+    sha256 "14baa7a9ea7723d46f60de5f8c6f20e840baa7e3e193bf0d9ec5fe9103a15254"
   end
 
   def install
