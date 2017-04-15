@@ -16,7 +16,9 @@ Devops formulae for the Homebrew package manager including the following tools:
 * millipede-c ([github.com/getmillipede/millipede-c](https://github.com/getmillipede/millipede-c/))
 * millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
 * millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
+* millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
+* pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
 
 ## Usage
@@ -33,6 +35,9 @@ brew install millipede
 
 # Install puppet-lint
 brew install puppet-lint
+
+# Install pylint
+brew install pylint
 
 # etc.
 ```
