@@ -11,6 +11,11 @@ class PipWhereami < Formula
 
   depends_on :python3
 
+  resource "access_points" do
+    url "https://pypi.python.org/packages/69/15/b71bbe5fe766ba322f7bbb7a1e417c6e80a61fddeb60543965e935aae31c/access_points-0.3.52.tar.gz"
+    sha256 ""
+  end
+
   def install
     virtualenv_install_with_resources
   end
