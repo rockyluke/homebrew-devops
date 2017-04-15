@@ -20,6 +20,7 @@ Devops formulae for the Homebrew package manager including the following tools:
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
+* whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
 
 ## Usage
 
