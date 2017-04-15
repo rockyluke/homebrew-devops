@@ -15,8 +15,8 @@ class PipPylint < Formula
   end
 
   resource "backports.functools_lru_cache" do
-    url "https://github.com/jaraco/backports.functools_lru_cache/archive/1.3.tar.gz"
-    sha256 "cd63e58510a2aa0b020595bff195e3c269dd0926dc631c0a2e45a092906aee3c"
+    url "https://pypi.python.org/packages/00/9c/70c865c629d406531d05f46a5c5f68874f186bcc0424ed3bd7cbe54bfe7d/backports.functools_lru_cache-1.3.tar.gz"
+    sha256 ""
   end
 
   resource "configparser" do
