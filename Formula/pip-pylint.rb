@@ -6,8 +6,8 @@ class PipPylint < Formula
   desc "Python source code analyzer."
   version "1.7.0"
   homepage "https://github.com/pycqa/pylint/"
-  url "https://github.com/pycqa/pylint/archive/pylint-#{version}.tar.gz"
-  sha256 "a3e67cb0610bc9e648235c1790d030bbf973c54138f13c1f076e7f2be693dfe1"
+  url "https://pypi.python.org/packages/6c/8d/bc0b9c8ebb3ab03f6f830b1f87110291f0aef92350266a1faa4f25f0bfee/pylint-#{version}.tar.gz"
+  sha256 "27dec85ce32fe5cb78eaad11c165cfb53479ad92930783f04016eebe41f28a3a"
 
   depends_on :python3
 
@@ -43,10 +43,6 @@ class PipPylint < Formula
 
   def install
     virtualenv_install_with_resources
-    # venv = virtualenv_create(libexec)
-    # venv.pip_install resource("astroid")
-    # venv.pip_install resource("isort")
-    # venv.pip_install_and_link buildpath
   end
 
   test do
