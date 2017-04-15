@@ -26,6 +26,11 @@ class PipPylint < Formula
     sha256 "d055e9697c3d12e2f9a67691853f19b39d694a6bc533ebcd21c5e609d67c597f"
   end
 
+  resource "mccabe" do
+    url "https://pypi.python.org/packages/06/18/fa675aa501e11d6d6ca0ae73a101b2f3571a565e0f7d38e062eec18a91ee/mccabe-0.6.1.tar.gz"
+    sha256 "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"
+  end
+
   def install
     virtualenv_install_with_resources
     # venv = virtualenv_create(libexec)
