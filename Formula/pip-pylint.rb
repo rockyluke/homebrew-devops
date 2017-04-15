@@ -22,10 +22,11 @@ class PipPylint < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec)
-    venv.pip_install resource("astroid")
-    venv.pip_install resource("isort")
-    venv.pip_install_and_link buildpath
+    virtualenv_install_with_resources
+    # venv = virtualenv_create(libexec)
+    # venv.pip_install resource("astroid")
+    # venv.pip_install resource("isort")
+    # venv.pip_install_and_link buildpath
   end
 
   test do
