@@ -6,7 +6,7 @@ class DracKvm < Formula
   desc 'A simple CLI launcher for Dell DRAC KVM sessions.'
   version '1.0.0'
   homepage 'https://github.com/rockyluke/drac-kvm/'
-  url "https://github.com/PaulMaddox/drac-kvm/archive/v#{version}.tar.gz"
+  url "https://github.com/rockyluke/drac-kvm/archive/v#{version}.tar.gz"
   sha256 ''
 
   depends_on 'go' => :build
@@ -16,9 +16,9 @@ class DracKvm < Formula
     ENV['GOBIN'] = buildpath
     ENV['CGO_ENABLED'] = '0'
 
-    (buildpath/'src/github.com/paulmaddox/drac-kvm').install Dir['*']
+    (buildpath/'src/github.com/rockyluke/drac-kvm').install Dir['*']
 
-    system 'go', 'build', '-o', "#{bin}/drac-kvm", '-v', 'github.com/paulmaddox/drac-kvm'
+    system 'go', 'build', '-o', "#{bin}/drac-kvm", '-v', 'github.com/rockyluke/drac-kvm'
   end
 
   test do
