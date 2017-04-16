@@ -8,6 +8,7 @@ before_install:
   - brew tap rockyluke/devops
 
 install:
+  - brew install drac-kvm
   - brew install i2cssh
   - brew install lunchy
   - brew install millipede-c
@@ -20,6 +21,7 @@ install:
   - brew install yamllint
 
 script:
+  - brew test drac-kvm
   - brew test i2cssh
   - brew test puppet-lint
   - brew test pylint
