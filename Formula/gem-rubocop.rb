@@ -37,10 +37,10 @@ class GemRubocop < Formula
         f << <<-RUBY
 #!#{ruby_path}
 
-ENV['GEM_HOME'] = prefix
-ENV['GEM_PATH'] = prefix
+ENV['GEM_HOME'] = #{prefix}
+ENV['GEM_PATH'] = #{prefix}
 $:.unshift(#{ruby_libs.map(&:inspect).join(',')})
-load file
+load #{file}
 # EOF
         RUBY
       end
