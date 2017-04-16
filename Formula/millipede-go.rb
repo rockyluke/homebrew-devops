@@ -21,7 +21,7 @@ class MillipedeGo < Formula
     mkdir_p buildpath/'src/github.com/getmillipede'
     ln_s buildpath, buildpath/'src/github.com/getmillipede/millipede-go'
     Language::Go.stage_deps resources, buildpath/'src'
-    system 'go', 'build', '-o', "#{bin}/millipede-go", './cmd/millipede-go'
+    system 'go', 'build', '-o', "#{bin}/millipede-go", "#{buildpath}/cmd/millipede-go"
   end
 
   test do
