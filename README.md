@@ -11,9 +11,10 @@ didn't include with macOS.
 
 Devops formulae for the Homebrew package manager including the following tools:
 
-* i2cssh ([github.com/wouterdebie/i2cssh](https://github.com/wouterdebie/i2cssh/))
+* c2go ([github.com/elliotchance/c2go](https://github.com/elliotchance/c2go/))
 * drac-kvm ([github.com/paulmaddox/drac-kvm](https://github.com/paulmaddox/drac-kvm/))
 * golint ([github.com/golang/lint](https://github.com/golang/lint/))
+* i2cssh ([github.com/wouterdebie/i2cssh](https://github.com/wouterdebie/i2cssh/))
 * lunchy ([github.com/eddiezane/lunchy](https://github.com/eddiezane/lunchy/))
 * millipede-c ([github.com/getmillipede/millipede-c](https://github.com/getmillipede/millipede-c/))
 * millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
