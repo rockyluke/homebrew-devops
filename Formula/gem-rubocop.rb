@@ -23,10 +23,12 @@ class GemRubocop < Formula
            '--no-wrapper',
            '--no-user-install'
 
+    raise "gem install 'rubocop' failed with status #{$?.exitstatus}" unless $?.success?
+
     bin.rmtree if bin.exist?
     bin.mkpath
 
-    brew_gem_prefix = prefix + "/gems/rubocop-#{version}"
+    brew_gem_prefix = "#{prefix}/gems/rubocop-#{version}"
 
     gemspec = Gem::Specification.load("#{prefix}/specifications/rubocop-#{version}.gemspec")
 

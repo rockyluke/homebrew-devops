@@ -8,27 +8,27 @@ class GemI2cssh < Formula
   sha256 '10885270b1ec08fae0ab7a0ee3f6f8043ab7ecd7d0a4bddfa26fb5c185cb6395'
 
   def install
-    ENV['GEM_HOME']="#{prefix}"
-    ENV['GEM_PATH']="#{prefix}"
+    ENV['GEM_HOME'] = prefix
+    ENV['GEM_PATH'] = prefix
 
-    gem_path = "/usr/bin/gem"
-    ruby_path = "/usr/bin/ruby"
+    gem_path  = '/usr/bin/gem'
+    ruby_path = '/usr/bin/ruby'
 
-    system "#{gem_path}",
+    system gem_path,
            "install",
-           "#{cached_download}",
-           "--install-dir", "#{prefix}",
-           "--bindir", "#{bin}",
-           "--no-document",
-           "--no-wrapper",
-           "--no-user-install"
+           cached_download,
+           '--install-dir', prefix,
+           '--bindir', bin,
+           '--no-document',
+           '--no-wrapper',
+           '--no-user-install'
 
     raise "gem install 'i2cssh' failed with status #{$?.exitstatus}" unless $?.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath
 
-    brew_gem_prefix = "#{prefix}" + "/gems/i2cssh-#{version}"
+    brew_gem_prefix = "#{prefix}/gems/i2cssh-#{version}"
 
     gemspec = Gem::Specification::load("#{prefix}/specifications/i2cssh-#{version}.gemspec")
 
