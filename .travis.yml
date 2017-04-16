@@ -10,6 +10,7 @@ before_install:
 install:
   - brew install drac-kvm
   - brew install i2cssh
+  - brew install golint
   - brew install lunchy
   - brew install millipede-c
   - brew install millipede-cpp
@@ -22,6 +23,7 @@ install:
 
 script:
   - brew test i2cssh
+  - brew test golint
   - brew test puppet-lint
   - brew test pylint
   - brew test rubocop

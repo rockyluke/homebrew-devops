@@ -22,14 +22,12 @@ class Golint < Formula
 
 
     (buildpath/'src/github.com/golang/lint/').install Dir['*']
-
     Language::Go.stage_deps resources, buildpath/'src'
-
     system 'go', 'build', '-o', "#{bin}/golint", 'github.com/golang/lint/golint/'
   end
 
   test do
-    system "#{bin}/golint --help"
+    system "#{bin}/golint"
   end
 end
 # EOF
