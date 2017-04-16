@@ -1,6 +1,6 @@
 # -*- ruby -*-
 
-require "language/go"
+require 'language/go'
 
 class DracKvm < Formula
   desc 'A simple CLI launcher for Dell DRAC KVM sessions.'
@@ -12,8 +12,8 @@ class DracKvm < Formula
   depends_on 'go' => :build
 
   def install
-    ENV['GOPATH'] = buildpath
-    ENV['GOBIN'] = buildpath
+    ENV['GOPATH']      = buildpath
+    ENV['GOBIN']       = buildpath
     ENV['CGO_ENABLED'] = '0'
 
     (buildpath/'src/github.com/rockyluke/drac-kvm').install Dir['*']

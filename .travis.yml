@@ -21,7 +21,6 @@ install:
   - brew install yamllint
 
 script:
-  - brew test drac-kvm
   - brew test i2cssh
   - brew test puppet-lint
   - brew test pylint
