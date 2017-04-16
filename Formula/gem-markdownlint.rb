@@ -5,7 +5,7 @@ class GemMarkdownlint < Formula
   version '0.4.0'
   homepage 'https://github.com/mivok/markdownlint/'
   url "https://rubygems.org/gems/mdl-#{version}.gem"
-  sha256 ''
+  sha256 'e2de244a72ac4e90bd9045582fe7cfed84b436342a127dd6a5fb9c2b016fa637'
 
   def install
     ENV['GEM_HOME'] = prefix
