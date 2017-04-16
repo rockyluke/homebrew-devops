@@ -16,7 +16,7 @@ class MillipedeGo < Formula
     ENV['GOBIN'] = buildpath
     ENV['CGO_ENABLED'] = '0'
 
-    (buildpath/'src/github.com/getmillipede/millipede-go').install Dir['*']
+    ("#{buildpath}/src/github.com/getmillipede/millipede-go").install Dir['*']
 
     system 'go', 'build', '-o', "#{bin}/millipede-go", '-v', 'github.com/getmillipede/millipede-go/cmd/millipede-go/'
   end
