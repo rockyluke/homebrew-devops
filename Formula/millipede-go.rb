@@ -15,11 +15,15 @@ class MillipedeGo < Formula
     url 'https://github.com/codegangsta/cli.git'
   end
 
+  go_resource 'github.com/urfave/cli' do
+    url 'https://github.com/urfave/cli'
+  end
+
   def install
     ENV['GOPATH'] = buildpath
-    mkdir_p buildpath/'src/github.com/getmillipede'
-    ln_s buildpath, buildpath/'src/github.com/getmillipede/millipede-go'
-    Language::Go.stage_deps resources, buildpath/'src'
+    mkdir_p buildpath / 'src/github.com/getmillipede'
+    ln_s buildpath, buildpath / 'src/github.com/getmillipede/millipede-go'
+    Language::Go.stage_deps resources, buildpath / 'src'
     system 'go', 'build', '-o', "#{bin}/millipede-go", './cmd/millipede-go'
   end
 
