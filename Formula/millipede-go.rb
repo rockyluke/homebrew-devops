@@ -11,10 +11,6 @@ class MillipedeGo < Formula
 
   depends_on 'go' => :build
 
-  go_resource 'github.com/codegangsta/cli' do
-    url 'https://github.com/codegangsta/cli.git'
-  end
-
   go_resource 'github.com/urfave/cli' do
     url 'https://github.com/urfave/cli'
     sha256 'f97740a21278d3fd0148d0e747e64ab1d4cde8fc63938e81c9080a43c4e34a01'
