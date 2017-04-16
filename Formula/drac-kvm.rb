@@ -4,10 +4,10 @@ require "language/go"
 
 class DracKvm < Formula
   desc 'A simple CLI launcher for Dell DRAC KVM sessions.'
-  version '1.1.0'
+  version '1.0.0'
   homepage 'https://github.com/rockyluke/drac-kvm/'
   url "https://github.com/rockyluke/drac-kvm/archive/v#{version}.tar.gz"
-  sha256 ''
+  sha256 '5e07d12fe634ceb2852076a36aaa84bfb93a698af3f5c0e4334227a2594dfd6a'
 
   depends_on 'go' => :build
 
