@@ -3,7 +3,7 @@
 require 'language/go'
 
 class Golint < Formula
-  desc 'This is a linter for Go source code.'
+  desc 'A linter for Go files.'
   version 'master'
   homepage 'https://github.com/golang/lint/'
   url 'https://github.com/golang/lint/archive/master.tar.gz'

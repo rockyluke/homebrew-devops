@@ -8,14 +8,16 @@ before_install:
   - brew tap rockyluke/devops
 
 install:
+  - brew install c2go
   - brew install drac-kvm
-  - brew install i2cssh
   - brew install golint
+  - brew install i2cssh
   - brew install lunchy
   - brew install millipede-c
   - brew install millipede-cpp
   - brew install millipede-go
   - brew install millipede-python
+  - brew install nginx-config-builder
   - brew install puppet-lint
   - brew install pylint
   - brew install rubocop

@@ -3,7 +3,7 @@
 class PipPylint < Formula
   include Language::Python::Virtualenv
 
-  desc 'Python source code analyzer.'
+  desc 'A linter for Python files.'
   version '1.7.0'
   homepage 'https://github.com/pycqa/pylint/'
   url "https://pypi.python.org/packages/6c/8d/bc0b9c8ebb3ab03f6f830b1f87110291f0aef92350266a1faa4f25f0bfee/pylint-#{version}.tar.gz"
