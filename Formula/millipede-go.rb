@@ -9,6 +9,8 @@ class MillipedeGo < Formula
   url "https://github.com/getmillipede/millipede-go/archive/v#{version}.tar.gz"
   sha256 '49d1e6ee6843b82d6b72254d00813941590ad9d4850b27a60e2fc10cfdd9c4f4'
 
+  head "https://github.com/getmillipede/millipede-go.git"
+
   depends_on 'go' => :build
 
   def install
