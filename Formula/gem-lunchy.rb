@@ -5,7 +5,7 @@ class GemLunchy < Formula
   version "0.10.4"
   homepage "https://github.com/eddiezane/lunchy/"
   url "https://rubygems.org/gems/lunchy-#{version}.gem"
-  sha256 ""
+  sha256 "66bfbeafc00bee514fa32eead333fe682aa6312cd23e43ec717c4aaa994eeb60"
 
   def install
     ENV['GEM_HOME']="#{prefix}"
@@ -47,6 +47,10 @@ load "#{file}"
         RUBY
       end
     end
+  end
+
+  test do
+    system "#{bin}/lunchy --help"
   end
 end
 # EOF
