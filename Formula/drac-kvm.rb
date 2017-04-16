@@ -4,18 +4,20 @@ require "language/go"
 
 class DracKvm < Formula
   desc "A simple CLI launcher for Dell DRAC KVM sessions."
-  homepage "https://github.com/paulmaddox/drac-kvm"
-  url "https://github.com/paulmaddox/drac-kvm"
-  sha256 "748cafba9b2c8855be58546b472bf2a57301a2197fde8ecb5df7588f3298cc51"
+  homepage "https://github.com/paulmaddox/drac-kvm/"
+  url "https://github.com/PaulMaddox/drac-kvm/archive/master.zip"
+  sha256 ""
 
   depends_on "go" => :build
 
   def install
-    ENV["GOPATH"] = buildpath
-    mkdir_p buildpath/"src/github.com/paulmaddox"
-    ln_s buildpath, buildpath/"src/github.com/paulmaddox/drac-kvm"
-    Language::Go.stage_deps resources, buildpath/"src"
-    system "go", "build", "-o", "#{bin}/drac-kvm"
+    ENV['GOPATH'] = buildpath
+    ENV['GOBIN'] = buildpath
+    ENV['CGO_ENABLED'] = '0'
+
+    (buildpath/'src/github.com/paulmaddox/drac-kvm').install Dir['*']
+
+    system 'go', 'build', '-o', "#{bin}/drac-kvm", '-v', 'github.com/paulmaddox/drac-kvm'
   end
 
   test do
