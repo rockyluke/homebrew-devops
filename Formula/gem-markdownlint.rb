@@ -1,6 +1,6 @@
 # -*- ruby -*-
 
-class GemMdl < Formula
+class GemMarkdownlint < Formula
   desc 'A linter for Markdown files.'
   version '0.4.0'
   homepage 'https://github.com/mivok/markdownlint/'
