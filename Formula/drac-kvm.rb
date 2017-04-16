@@ -7,7 +7,7 @@ class DracKvm < Formula
   version '1.0.0'
   homepage 'https://github.com/rockyluke/drac-kvm/'
   url "https://github.com/rockyluke/drac-kvm/archive/v#{version}.tar.gz"
-  sha256 '5e07d12fe634ceb2852076a36aaa84bfb93a698af3f5c0e4334227a2594dfd6a'
+  sha256 ''
 
   depends_on 'go' => :build
 
