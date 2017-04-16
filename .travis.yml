@@ -13,6 +13,7 @@ install:
   - brew install golint
   - brew install i2cssh
   - brew install lunchy
+  - brew install markdownlint
   - brew install millipede-c
   - brew install millipede-cpp
   - brew install millipede-go
@@ -26,6 +27,7 @@ install:
 script:
   - brew test i2cssh
   - brew test golint
+  - brew test markdownlint
   - brew test puppet-lint
   - brew test pylint
   - brew test rubocop
