@@ -1,7 +1,7 @@
 # -*- ruby -*-
 
 class GemPuppetLint < Formula
-  desc 'Checks your Puppet manifests against the Puppetlabs style guide.'
+  desc 'A linter for Puppet files.'
   version '2.2.1'
   homepage 'https://github.com/rodjek/puppet-lint/'
   url "https://rubygems.org/gems/puppet-lint-#{version}.gem"
