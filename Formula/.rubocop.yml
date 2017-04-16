@@ -1,0 +1,10 @@
+---
+
+Style/Documentation:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false

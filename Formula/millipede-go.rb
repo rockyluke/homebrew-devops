@@ -1,26 +1,26 @@
 # -*- ruby -*-
 
-require "language/go"
+require 'language/go'
 
 class MillipedeGo < Formula
-  desc "Print a beautiful millipede."
-  version "1.3.0"
-  homepage "https://github.com/getmillipede/millipede-go"
+  desc 'Print a beautiful millipede.'
+  version '1.3.0'
+  homepage 'https://github.com/getmillipede/millipede-go'
   url "https://github.com/getmillipede/millipede-go/archive/v#{version}.tar.gz"
-  sha256 "643b23c486ec887bdf2d071692a4e5baecb65d5b6a70fb5c135bedaf653180ca"
+  sha256 '643b23c486ec887bdf2d071692a4e5baecb65d5b6a70fb5c135bedaf653180ca'
 
-  depends_on "go" => :build
+  depends_on 'go' => :build
 
-  go_resource "github.com/codegangsta/cli" do
-    url "https://github.com/codegangsta/cli.git"
+  go_resource 'github.com/codegangsta/cli' do
+    url 'https://github.com/codegangsta/cli.git'
   end
 
   def install
-    ENV["GOPATH"] = buildpath
-    mkdir_p buildpath/"src/github.com/getmillipede"
-    ln_s buildpath, buildpath/"src/github.com/getmillipede/millipede-go"
-    Language::Go.stage_deps resources, buildpath/"src"
-    system "go", "build", "-o", "#{bin}/millipede-go", "./cmd/millipede-go"
+    ENV['GOPATH'] = buildpath
+    mkdir_p "#{buildpath}/src/github.com/getmillipede"
+    ln_s buildpath, "#{buildpath}/src/github.com/getmillipede/millipede-go"
+    Language::Go.stage_deps resources, "#{buildpath}/src"
+    system 'go', 'build', '-o', "#{bin}/millipede-go", './cmd/millipede-go'
   end
 
   test do
