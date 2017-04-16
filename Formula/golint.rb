@@ -6,7 +6,7 @@ class Golint < Formula
   desc 'This is a linter for Go source code.'
   version 'master'
   homepage 'https://github.com/golang/lint/'
-  head 'https://github.com/golang/lint.git'
+  url 'https://github.com/golang/lint/archive/master.tar.gz'
   sha256 ''
 
   depends_on 'go' => :build
