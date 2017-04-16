@@ -12,9 +12,9 @@ class MillipedeGo < Formula
   depends_on 'go' => :build
 
   def install
-    ENV["GOPATH"] = buildpath
-    ENV["GOBIN"] = buildpath
-    ENV["CGO_ENABLED"] = "0"
+    ENV['GOPATH'] = buildpath
+    ENV['GOBIN'] = buildpath
+    ENV['CGO_ENABLED'] = "0"
 
     (buildpath/'src/github.com/getmillipede/millipede-go').install Dir['*']
 
