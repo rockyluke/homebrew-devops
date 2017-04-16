@@ -35,7 +35,7 @@ class GemPuppetLint < Formula
     ruby_libs = Dir.glob("#{prefix}/gems/*/lib")
     gemspec.executables.each do |exe|
       file = Pathname.new("#{brew_gem_prefix}/#{gemspec.bindir}/#{exe}")
-      (bin+file.basename).open('w') do |f|
+      (bin + file.basename).open('w') do |f|
         f << <<-RUBY
 #!#{ruby_path}
 
