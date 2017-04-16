@@ -39,10 +39,10 @@ class GemLunchy < Formula
         f << <<-RUBY
 #!#{ruby_path}
 
-ENV['GEM_HOME']="#{prefix}"
-ENV['GEM_PATH']="#{prefix}"
-$:.unshift(#{ruby_libs.map(&:inspect).join(",")})
-load "#{file}"
+ENV['GEM_HOME'] = #{prefix}
+ENV['GEM_PATH'] = #{prefix}
+$:.unshift(#{ruby_libs.map(&:inspect).join(',')})
+load #{file}
 # EOF
         RUBY
       end
