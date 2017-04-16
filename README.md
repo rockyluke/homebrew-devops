@@ -20,6 +20,7 @@ Devops formulae for the Homebrew package manager including the following tools:
 * millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
 * millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
 * millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
+* nginx-config-builder ([github.com/linkedin/nginx-config-builder](https://github.com/linkedin/nginx-config-builder/))
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
