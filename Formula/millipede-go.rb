@@ -18,7 +18,7 @@ class MillipedeGo < Formula
 
     (buildpath/'src/github.com/getmillipede/millipede-go').install Dir['*']
 
-    system 'go', 'build', '-o', '#{bin}/millipede-go', '-v', 'github.com/getmillipede/millipede-go/cmd/millipede-go/'
+    system 'go', 'build', '-o', "#{bin}/millipede-go", '-v', 'github.com/getmillipede/millipede-go/cmd/millipede-go/'
   end
 
   test do
