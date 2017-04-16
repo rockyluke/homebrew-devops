@@ -1,34 +1,34 @@
 # -*- ruby -*-
 
 class GemPuppetLint < Formula
-  desc "Checks your Puppet manifests against the Puppetlabs style guide."
-  version "2.2.1"
-  homepage "https://github.com/rodjek/puppet-lint/"
+  desc 'Checks your Puppet manifests against the Puppetlabs style guide.'
+  version '2.2.1'
+  homepage 'https://github.com/rodjek/puppet-lint/'
   url "https://rubygems.org/gems/puppet-lint-#{version}.gem"
-  sha256 "f7f191e8bcd8ff35744bd5197548d283ecc1e117e08b6a3f0e614cb306140d87"
+  sha256 'f7f191e8bcd8ff35744bd5197548d283ecc1e117e08b6a3f0e614cb306140d87'
 
   def install
-    ENV['GEM_HOME']="#{prefix}"
-    ENV['GEM_PATH']="#{prefix}"
+    ENV['GEM_HOME'] = prefix
+    ENV['GEM_PATH'] = prefix
 
-    gem_path = "/usr/bin/gem"
-    ruby_path = "/usr/bin/ruby"
+    gem_path  = '/usr/bin/gem'
+    ruby_path = '/usr/bin/ruby'
 
-    system "#{gem_path}",
+    system gem_path,
            "install",
-           "#{cached_download}",
-           "--install-dir", "#{prefix}",
-           "--bindir", "#{bin}",
-           "--no-document",
-           "--no-wrapper",
-           "--no-user-install"
+           cached_download,
+           '--install-dir', prefix,
+           '--bindir', bin,
+           '--no-document',
+           '--no-wrapper',
+           '--no-user-install'
 
     raise "gem install 'puppet-lint' failed with status #{$?.exitstatus}" unless $?.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath
 
-    brew_gem_prefix = "#{prefix}" + "/gems/puppet-lint-#{version}"
+    brew_gem_prefix = "#{prefix}/gems/puppet-lint-#{version}"
 
     gemspec = Gem::Specification::load("#{prefix}/specifications/puppet-lint-#{version}.gemspec")
 
