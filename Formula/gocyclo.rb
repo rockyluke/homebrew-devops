@@ -7,7 +7,7 @@ class Gocyclo < Formula
   version 'master'
   homepage 'https://github.com/fzipp/gocyclo/'
   url 'https://github.com/fzipp/gocyclo/archive/master.tar.gz'
-  sha256 :false
+  sha256 'de1b7210336a62e1c1128ce8d15c224955d24664285ff668ec9aeafb776f5da1'
 
   depends_on 'go' => :build
 
