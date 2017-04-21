@@ -22,6 +22,7 @@ class Hey < Formula
 
 
     (buildpath/'src/github.com/rakyll/hey/').install Dir['*']
+    Language::Go.stage_deps resources, buildpath/'src'
     system 'go', 'build', '-o', "#{bin}/hey", 'github.com/rakyll/hey/'
   end
 
