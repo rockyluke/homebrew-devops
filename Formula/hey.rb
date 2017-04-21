@@ -11,7 +11,7 @@ class Hey < Formula
 
   depends_on 'go' => :build
 
-  go_resource 'golang.org/x/net/http2/' do
+  go_resource 'golang.org/x/net/' do
     url 'https://go.googlesource.com/net.git'
   end
 
