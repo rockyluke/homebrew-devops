@@ -7,9 +7,13 @@ class Hey < Formula
   version 'master'
   homepage 'https://github.com/rakyll/hey/'
   url 'https://github.com/rakyll/hey/archive/master.tar.gz'
-  sha256 ''
+  sha256 '33d90b68790bf6864494ded966d5abc8c059031eeea098bc7ad6fba6ce54783d'
 
   depends_on 'go' => :build
+
+  go_resource 'golang.org/x/net/http2/' do
+    url 'https://go.googlesource.com/net.git'
+  end
 
   def install
     ENV['GOPATH']      = buildpath
