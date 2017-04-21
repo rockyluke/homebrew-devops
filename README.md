@@ -15,6 +15,7 @@ Devops formulae for the Homebrew package manager including the following tools:
 * drac-kvm ([github.com/paulmaddox/drac-kvm](https://github.com/paulmaddox/drac-kvm/))
 * gocyclo ([github.com/fzipp/gocyclo](https://github.com/fzipp/gocyclo/))
 * golint ([github.com/golang/lint](https://github.com/golang/lint/))
+* hey ([github.com/rakyll/hey](https://github.com/rakyll/hey/))
 * i2cssh ([github.com/wouterdebie/i2cssh](https://github.com/wouterdebie/i2cssh/))
 * lunchy ([github.com/eddiezane/lunchy](https://github.com/eddiezane/lunchy/))
 * markdownlint (or mdl) ([github.com/mivok/markdownlint](https://github.com/mivok/markdownlint/))
