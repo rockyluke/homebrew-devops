@@ -11,6 +11,10 @@ class Hey < Formula
 
   depends_on 'go' => :build
 
+  go_resource 'golang.org/x/text/' do
+    url 'https://go.googlesource.com/text.git'
+  end
+
   go_resource 'golang.org/x/net/' do
     url 'https://go.googlesource.com/net.git'
   end
