@@ -6,7 +6,7 @@ class MillipedeCpp < Formula
   url "https://github.com/getmillipede/millipede-cpp/archive/v1.0.0.tar.gz"
   sha256 "c19239228f3c22a8dd36cd70220d6884d42ae3f01bd14e4e359ff6badba257d8"
 
-  depends_on "cmake" => [:build, "without-docs"]
+  depends_on "cmake" => :build
 
   def install
     system "cmake", "CMakeLists.txt"
