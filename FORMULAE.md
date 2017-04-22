@@ -13,6 +13,8 @@
 * millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
 * millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
+* pycodestyle ([github.com/pycqa/pycodestyle](https://github.com/pycqa/pycodestyle/))
+* pydocstyle ([github.com/pycqa/pydocstyle](https://github.com/pycqa/pydocstyle/))
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
 * whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
