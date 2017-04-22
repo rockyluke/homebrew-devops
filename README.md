@@ -1,5 +1,7 @@
 # homebrew-devops ![License badge][license-img] [![Build Status][build-img]][build-url]
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1589449b5e2f4529be8d4d9514154f53)](https://www.codacy.com/app/rockyluke/homebrew-devops?utm_source=github.com&utm_medium=referral&utm_content=rockyluke/homebrew-devops&utm_campaign=badger)
+
 ## Overview
 
 Homebrew is the easiest  and most flexible way to install  the UNIX tools Apple
