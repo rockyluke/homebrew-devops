@@ -3,11 +3,10 @@
 class PipMillipede < Formula
   include Language::Python::Virtualenv
 
-  desc 'Print a beautiful millipede.'
-  version '2.0'
-  homepage 'https://github.com/getmillipede/millipede-python/'
-  url "https://github.com/getmillipede/millipede-python/releases/download/2.0/millipede-#{version}.tar.gz"
-  sha256 '009466d0a919af3dc4afadb6a70efb5610dab96d7134f18ac9f3a37c4279079d'
+  desc "Print a beautiful millipede."
+  homepage "https://github.com/getmillipede/millipede-python/"
+  url "https://github.com/getmillipede/millipede-python/releases/download/2.0/millipede-2.0.tar.gz"
+  sha256 "009466d0a919af3dc4afadb6a70efb5610dab96d7134f18ac9f3a37c4279079d"
 
   def install
     venv = virtualenv_create(libexec)
@@ -15,7 +14,7 @@ class PipMillipede < Formula
   end
 
   test do
-    system "#{bin}/millipede --help"
+    system "#{bin}/millipede", "--help"
   end
 end
 # EOF
