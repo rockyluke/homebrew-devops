@@ -9,12 +9,11 @@ class PipMillipede < Formula
   sha256 '009466d0a919af3dc4afadb6a70efb5610dab96d7134f18ac9f3a37c4279079d'
 
   def install
-    venv = virtualenv_create(libexec)
-    venv.pip_install_and_link buildpath
+    virtualenv_install_with_resources
   end
 
   test do
-    system '#{bin}/millipede', '--help'
+    system "#{bin}/millipede", '--help'
   end
 end
 # EOF

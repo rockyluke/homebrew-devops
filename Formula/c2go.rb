@@ -14,11 +14,11 @@ class C2go < Formula
     ENV['CGO_ENABLED'] = '0'
 
     (buildpath/'src/github.com/elliotchance/c2go/').install Dir['*']
-    system 'go', 'build', '-o', '#{bin}/c2go', 'github.com/elliotchance/c2go/'
+    system 'go', 'build', '-o', "#{bin}/c2go", 'github.com/elliotchance/c2go/'
   end
 
   test do
-    system '#{bin}/c2go'
+    system "#{bin}/c2go"
   end
 end
 # EOF

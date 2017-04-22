@@ -1,3 +1,4 @@
+
 # -*- ruby -*-
 
 class GemPuppetLint < Formula
@@ -27,21 +28,21 @@ class GemPuppetLint < Formula
     bin.rmtree if bin.exist?
     bin.mkpath
 
-    brew_gem_prefix = '#{prefix}/gems/puppet-lint-#{version}'
+    brew_gem_prefix = "#{prefix}/gems/puppet-lint-#{version}"
 
-    gemspec = Gem::Specification.load('#{prefix}/specifications/puppet-lint-#{version}.gemspec')
+    gemspec = Gem::Specification.load("#{prefix}/specifications/puppet-lint-#{version}.gemspec")
 
-    ruby_libs = Dir.glob('#{prefix}/gems/*/lib')
+    ruby_libs = Dir.glob("#{prefix}/gems/*/lib")
     gemspec.executables.each do |exe|
-      file = Pathname.new('#{brew_gem_prefix}/#{gemspec.bindir}/#{exe}')
+      file = Pathname.new("#{brew_gem_prefix}/#{gemspec.bindir}/#{exe}")
       (bin + file.basename).open('w') do |f|
         f << <<-RUBY
 #!#{ruby_path}
 
-ENV['GEM_HOME'] = '#{prefix}'
-ENV['GEM_PATH'] = '#{prefix}'
+ENV['GEM_HOME'] = "#{prefix}"
+ENV['GEM_PATH'] = "#{prefix}"
 $:.unshift(#{ruby_libs.map(&:inspect).join(',')})
-load '#{file}'
+load "#{file}"
 # EOF
         RUBY
       end
@@ -49,7 +50,7 @@ load '#{file}'
   end
 
   test do
-    system '#{bin}/puppet-lint', '--help'
+    system "#{bin}/puppet-lint", '--help'
   end
 end
 # EOF
