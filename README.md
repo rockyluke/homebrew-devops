@@ -1,4 +1,4 @@
-# homebrew-devops ![License badge][license-img] [![Build Status][build-img]][build-url]
+# homebrew-devops ![License badge][license-img] [![Build Status][build-img]][build-url] [![Codacy Status][codacy-img]][codacy-url]
 
 ## Overview
 
@@ -69,3 +69,5 @@ Feel free to contribute on GitHub.
 [license-img]: https://img.shields.io/badge/license-ISC-blue.svg
 [build-img]: https://travis-ci.org/rockyluke/homebrew-devops.svg?branch=master
 [build-url]: https://travis-ci.org/rockyluke/homebrew-devops
+[codacy-img]: https://api.codacy.com/project/badge/Grade/1589449b5e2f4529be8d4d9514154f53
+[codacy-url]: https://www.codacy.com/app/rockyluke/homebrew-devops

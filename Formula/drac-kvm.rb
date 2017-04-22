@@ -14,11 +14,11 @@ class DracKvm < Formula
     ENV['CGO_ENABLED'] = '0'
 
     (buildpath/'src/github.com/rockyluke/drac-kvm').install Dir['*']
-    system 'go', 'build', '-o', '#{bin}/drac-kvm', '-v', 'github.com/rockyluke/drac-kvm'
+    system 'go', 'build', '-o', "#{bin}/drac-kvm", '-v', 'github.com/rockyluke/drac-kvm'
   end
 
   test do
-    system '#{bin}/drac-kvm'
+    system "#{bin}/drac-kvm"
   end
 end
 # EOF

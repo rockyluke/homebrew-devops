@@ -15,11 +15,11 @@ class Gocyclo < Formula
     ENV['CGO_ENABLED'] = '0'
 
     (buildpath/'src/github.com/fzipp/gocyclo/').install Dir['*']
-    system 'go', 'build', '-o', '#{bin}/gocyclo', 'github.com/fzipp/gocyclo/'
+    system 'go', 'build', '-o', "#{bin}/gocyclo", 'github.com/fzipp/gocyclo/'
   end
 
   test do
-    system '#{bin}/gocyclo'
+    system "#{bin}/gocyclo"
   end
 end
 # EOF

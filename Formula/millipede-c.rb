@@ -12,7 +12,7 @@ class MillipedeC < Formula
   end
 
   test do
-    system '#{bin}/millipede-c'
+    system "#{bin}/millipede-c"
   end
 end
 # EOF

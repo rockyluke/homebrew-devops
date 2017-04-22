@@ -15,7 +15,7 @@ class MillipedeCpp < Formula
   end
 
   test do
-    system '#{bin}/millipede-cpp'
+    system "#{bin}/millipede-cpp"
   end
 end
 # EOF

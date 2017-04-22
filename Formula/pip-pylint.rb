@@ -45,7 +45,7 @@ class PipPylint < Formula
   end
 
   test do
-    system '#{bin}/pylint', '--help'
+    system "#{bin}/pylint", '--help'
   end
 end
 # EOF
