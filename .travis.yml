@@ -23,7 +23,6 @@ install:
   - brew install puppet-lint
   - brew install pylint
   - brew install rubocop
-  - brew install whereami
   - brew install yamllint
 
 script:
