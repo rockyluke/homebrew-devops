@@ -6,5 +6,14 @@ Style/Documentation:
 Style/FileName:
   Enabled: false
 
+Style/IndentHeredoc:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
 Metrics/LineLength:
   Enabled: false
