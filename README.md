@@ -13,6 +13,7 @@ Devops formulae for the Homebrew package manager including the following tools:
 
 * c2go ([github.com/elliotchance/c2go](https://github.com/elliotchance/c2go/))
 * drac-kvm ([github.com/paulmaddox/drac-kvm](https://github.com/paulmaddox/drac-kvm/))
+* flint ([github.com/pengwynn/flint](https://github.com/pengwynn/flint/))
 * gocyclo ([github.com/fzipp/gocyclo](https://github.com/fzipp/gocyclo/))
 * golint ([github.com/golang/lint](https://github.com/golang/lint/))
 * hey ([github.com/rakyll/hey](https://github.com/rakyll/hey/))
