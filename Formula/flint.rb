@@ -46,7 +46,7 @@ class Flint < Formula
   end
 
   test do
-    system "#{bin}/flint"
+    system "#{bin}/flint", '--help'
   end
 end
 # EOF
