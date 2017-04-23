@@ -32,6 +32,8 @@ Devops formulae for the Homebrew package manager including the following tools:
 * whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
 * yamllint ([github.com/adrienverge/yamllint](https://github.com/adrienverge/yamllint/))
 
+Find a complete list in [FORMULAE](https://github.com/rockyluke/homebrew-devops/blob/master/FORMULAE.md)
+
 ## Usage
 
 ```bash
