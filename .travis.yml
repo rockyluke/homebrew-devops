@@ -11,6 +11,7 @@ install:
   - brew install c2go
   - brew install drac-kvm
   - brew install flint
+  - brew install git-sweep
   - brew install gocyclo
   - brew install golint
   - brew install hey
