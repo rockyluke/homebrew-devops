@@ -10,6 +10,7 @@ before_install:
 install:
   - brew install c2go
   - brew install drac-kvm
+  - brew install exabgp
   - brew install flint
   - brew install git-sweep
   - brew install gocyclo
@@ -30,9 +31,10 @@ install:
   - brew install yamllint
 
 script:
-  - brew test i2cssh
+  - brew install exabgp
   - brew test flint
   - brew test golint
+  - brew test i2cssh
   - brew test markdownlint
   - brew test puppet-lint
   - brew test pycodestyle
