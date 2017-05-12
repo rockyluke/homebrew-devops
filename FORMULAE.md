@@ -20,6 +20,7 @@
 * pycodestyle ([github.com/pycqa/pycodestyle](https://github.com/pycqa/pycodestyle/))
 * pydocstyle ([github.com/pycqa/pydocstyle](https://github.com/pycqa/pydocstyle/))
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
+* pyupio ([github.com/pyupio/pyup](https://github.com/pyupio/pyup/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
 * whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
 * yamllint ([github.com/adrienverge/yamllint](https://github.com/adrienverge/yamllint/))
