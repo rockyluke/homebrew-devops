@@ -7,7 +7,7 @@ class Flint < Formula
   homepage 'https://github.com/pengwynn/flint/'
   url 'https://github.com/pengwynn/flint/archive/master.tar.gz'
   version 'master'
-  sha256 'aa97adb8455531db127759a6c35a8fb1556d9cbea086c44d8c2bbed8de6727d3'
+  sha256 'aae1ae282aadf30baa0d1ef2e127a45bfbe67eb73df95e6cd18aa75a70eccd49'
 
   depends_on 'go' => :build
 
