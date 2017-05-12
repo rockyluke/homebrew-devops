@@ -28,6 +28,7 @@ install:
   - brew install pycodestyle
   - brew install pydocstyle
   - brew install pylint
+  - brew install pyupio
   - brew install rubocop
   - brew install yamllint
 
