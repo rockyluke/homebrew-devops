@@ -15,6 +15,7 @@
 * millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
 * millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
 * millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
+* pup ([github.com/ericchiang/pup](https://github.com/ericchiang/pup/))
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
 * pycodestyle ([github.com/pycqa/pycodestyle](https://github.com/pycqa/pycodestyle/))
 * pydocstyle ([github.com/pycqa/pydocstyle](https://github.com/pycqa/pydocstyle/))

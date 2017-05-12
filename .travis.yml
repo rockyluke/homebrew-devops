@@ -23,6 +23,7 @@ install:
   - brew install millipede-cpp
   - brew install millipede-go
   - brew install millipede-python
+  - brew install pup
   - brew install puppet-lint
   - brew install pycodestyle
   - brew install pydocstyle
@@ -36,6 +37,7 @@ script:
   - brew test golint
   - brew test i2cssh
   - brew test markdownlint
+  - brew test pup
   - brew test puppet-lint
   - brew test pycodestyle
   - brew test pydocstyle
