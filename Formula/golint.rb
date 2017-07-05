@@ -7,7 +7,7 @@ class Golint < Formula
   homepage 'https://github.com/golang/lint/'
   url 'https://github.com/golang/lint/archive/master.tar.gz'
   version 'master'
-  sha256 '0605da09ffae441b843764a9d7b0ffc1e3bdba3b46da91bcd75ff9b5257bc194'
+  sha256 'ee730c9f41281495b11627d15a95a9b3fb3ec4fbbe302ce4975aeaf15c40d06c'
 
   depends_on 'go' => :build
 
