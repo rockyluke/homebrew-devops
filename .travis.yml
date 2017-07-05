@@ -40,8 +40,6 @@ script:
   - brew test markdownlint
   - brew test pup
   - brew test puppet-lint
-  - brew test pycodestyle
-  - brew test pydocstyle
   - brew test rubocop
   - brew test yamllint
 
