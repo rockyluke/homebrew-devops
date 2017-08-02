@@ -1,5 +1,6 @@
 # Formulae
 
+* apireaper ([github.com/vp-noc/apireaper](https://github.com/vp-noc/apireaper/))
 * c2go ([github.com/elliotchance/c2go](https://github.com/elliotchance/c2go/))
 * drac-kvm ([github.com/paulmaddox/drac-kvm](https://github.com/paulmaddox/drac-kvm/))
 * exabgp ([github.com/exa-networks/exabgp](https://github.com/exa-networks/exabgp/))
@@ -15,6 +16,7 @@
 * millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
 * millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
 * millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
+* monitoringreporter ([github.com/vp-noc/monitoringreporter](https://github.com/vp-noc/monitoringreporter/))
 * pup ([github.com/ericchiang/pup](https://github.com/ericchiang/pup/))
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
 * pycodestyle ([github.com/pycqa/pycodestyle](https://github.com/pycqa/pycodestyle/))
