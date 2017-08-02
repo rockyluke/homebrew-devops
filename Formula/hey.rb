@@ -7,7 +7,7 @@ class Hey < Formula
   homepage 'https://github.com/rakyll/hey/'
   url 'https://github.com/rakyll/hey/archive/master.tar.gz'
   version 'master'
-  sha256 '9be1ab28240d6151f9e65614ea5ceb6a681b28abd0cd605bc0b1b9b4f8a76e75'
+  sha256 '486fd76e052e26e23587445628be5b79889d0e456af149bfec250702ad652ef4'
 
   depends_on 'go' => :build
 
