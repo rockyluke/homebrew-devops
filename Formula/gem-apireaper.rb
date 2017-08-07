@@ -3,8 +3,8 @@
 class GemApireaper < Formula
   desc 'APIReaper is a simple tool to assess an API and its answer.'
   homepage 'https://github.com/vp-noc/apireaper/'
-  url 'https://rubygems.org/gems/apireaper-1.0.9.gem'
-  sha256 '0f2fb7c3a395edd5d236a612ef98b4675e7e3b6e2d6225efa12965c00b2b89a3'
+  url 'https://rubygems.org/gems/apireaper-1.0.10.gem'
+  sha256 '73faa756eb046d6486f40195f691634c84e1a8c9a6b8d26a6aca53fd28fe48c9'
 
   def install
     ENV['GEM_HOME'] = prefix
