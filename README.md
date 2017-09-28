@@ -35,6 +35,7 @@ Devops formulae for the Homebrew package manager including the following tools:
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
 * pyupio ([github.com/pyupio/pyup](https://github.com/pyupio/pyup/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
+* sup([github.com/sup-heliotrope/sup](https://github.com/sup-heliotrope/sup/))
 * whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
 * yamllint ([github.com/adrienverge/yamllint](https://github.com/adrienverge/yamllint/))
 
