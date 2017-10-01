@@ -4,7 +4,7 @@ class MillipedeGo < Formula
   desc 'Print a beautiful millipede.'
   homepage 'https://github.com/getmillipede/millipede-go/'
   url 'https://github.com/getmillipede/millipede-go/archive/v1.3.0.tar.gz'
-  sha256 '49d1e6ee6843b82d6b72254d00813941590ad9d4850b27a60e2fc10cfdd9c4f4'
+  sha256 'b21628edf3fb3ef32a29b5e458ec7c13aa1dcd6d661964edfe14f064ab722af3'
 
   depends_on 'go' => :build
 
