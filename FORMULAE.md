@@ -6,6 +6,7 @@
 * exabgp ([github.com/exa-networks/exabgp](https://github.com/exa-networks/exabgp/))
 * flint ([github.com/pengwynn/flint](https://github.com/pengwynn/flint/))
 * git-sweep ([github.com/arc90/git-sweep](https://github.com/arc90/git-sweep/))
+* gitlint ([github.com/jorisroovers/gitlint](https://github.com/jorisroovers/gitlint/))
 * gocyclo ([github.com/fzipp/gocyclo](https://github.com/fzipp/gocyclo/))
 * golint ([github.com/golang/lint](https://github.com/golang/lint/))
 * hey ([github.com/rakyll/hey](https://github.com/rakyll/hey/))
