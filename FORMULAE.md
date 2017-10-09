@@ -16,6 +16,7 @@
 * millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
 * millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
 * millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
+* modulesync ([github.com/voxpupuli/modulesync](https://github.com/voxpupuli/modulesync/))
 * monitoringreporter ([github.com/vp-noc/monitoringreporter](https://github.com/vp-noc/monitoringreporter/))
 * pup ([github.com/ericchiang/pup](https://github.com/ericchiang/pup/))
 * puppet-lint ([github.com/rodjek/puppet-lint](https://github.com/rodjek/puppet-lint/))
