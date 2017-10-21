@@ -8,7 +8,7 @@ before_install:
 
 install:
   - brew install apireaper
-  - brew install bolt
+  # - brew install bolt
   - brew install c2go
   - brew install drac-kvm
   - brew install exabgp
@@ -37,7 +37,7 @@ install:
   - brew install yamllint
 
 script:
-  - brew test bolt
+  # - brew test bolt
   - brew test flint
   - brew test golint
   - brew test i2cssh
