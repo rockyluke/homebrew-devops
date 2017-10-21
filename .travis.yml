@@ -40,9 +40,9 @@ script:
   # - brew test bolt
   - brew test flint
   - brew test golint
-  - brew test i2cssh
+  # - brew test i2cssh
   - brew test markdownlint
-  - brew test modulesync
+  # - brew test modulesync
   - brew test pup
   - brew test puppet-lint
   - brew test rubocop
