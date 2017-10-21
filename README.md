@@ -12,6 +12,7 @@ didn't include with macOS.
 Devops formulae for the Homebrew package manager including the following tools:
 
 * apireaper ([github.com/vp-noc/apireaper](https://github.com/vp-noc/apireaper/))
+* bolt ([github.com/puppetlabs/bolt](https://github.com/puppetlabs/bolt/))
 * c2go ([github.com/elliotchance/c2go](https://github.com/elliotchance/c2go/))
 * drac-kvm ([github.com/paulmaddox/drac-kvm](https://github.com/paulmaddox/drac-kvm/))
 * exabgp ([github.com/exa-networks/exabgp](https://github.com/exa-networks/exabgp/))

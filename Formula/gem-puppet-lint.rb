@@ -1,4 +1,3 @@
-
 # -*- ruby -*-
 
 class GemPuppetLint < Formula
