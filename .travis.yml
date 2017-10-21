@@ -2,7 +2,6 @@ os: osx
 osx_image: xcode9.1
 
 before_install:
-  - xcode-select --install
   - brew update
   - brew outdated
   - brew tap rockyluke/devops
@@ -26,7 +25,7 @@ install:
   - brew install millipede-cpp
   - brew install millipede-go
   - brew install millipede-python
-  - brew install modulesync
+  # - brew install modulesync
   - brew install monitoringreporter
   - brew install pup
   - brew install puppet-lint
