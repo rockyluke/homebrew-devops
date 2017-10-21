@@ -18,7 +18,7 @@ install:
   - brew install gocyclo
   - brew install golint
   - brew install hey
-  - brew install i2cssh
+  # - brew install i2cssh
   - brew install lunchy
   - brew install markdownlint
   - brew install millipede-c
