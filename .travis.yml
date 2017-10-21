@@ -1,7 +1,12 @@
+language: ruby
 os: osx
-osx_image: xcode9
+osx_image: xcode9.1
+rvm: system
+# rvm: 2.3.1
 
 before_install:
+  - ruby --version
+  - gem --version
   - brew update
   - brew tap rockyluke/devops
 
