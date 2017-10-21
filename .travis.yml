@@ -1,17 +1,19 @@
-language: ruby
 os: osx
 osx_image: xcode9
-# rvm: system
 
 before_install:
+  - brew update
   - brew tap rockyluke/devops
 
 install:
+  - brew install apireaper
+  - brew install bolt
   - brew install c2go
   - brew install drac-kvm
   - brew install exabgp
   - brew install flint
   - brew install git-sweep
+  - brew install gitlint
   - brew install gocyclo
   - brew install golint
   - brew install hey
@@ -22,6 +24,8 @@ install:
   - brew install millipede-cpp
   - brew install millipede-go
   - brew install millipede-python
+  - brew install modulesync
+  - brew install monitoringreporter
   - brew install pup
   - brew install puppet-lint
   - brew install pycodestyle
@@ -32,11 +36,12 @@ install:
   - brew install yamllint
 
 script:
-  - brew install exabgp
+  - brew test bolt
   - brew test flint
   - brew test golint
   - brew test i2cssh
   - brew test markdownlint
+  - brew test modulesync
   - brew test pup
   - brew test puppet-lint
   - brew test rubocop
