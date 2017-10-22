@@ -30,7 +30,7 @@ install:
   - brew install pydocstyle
   - brew install pylint
   - brew install pyupio
-  - brew install rubocop
+  # - brew install rubocop
   # - brew install sup
   - brew install yamllint
 
@@ -57,7 +57,7 @@ script:
   - pydocstyle --help
   - pylint --help
   - pyup --help
-  - rubocop --help
+  # - rubocop --help
   # - sup --help
   - yamllint --help
 
