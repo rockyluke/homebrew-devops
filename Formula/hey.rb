@@ -5,9 +5,8 @@ require 'language/go'
 class Hey < Formula
   desc 'HTTP load generator.'
   homepage 'https://github.com/rakyll/hey/'
-  url 'https://github.com/rakyll/hey/archive/master.tar.gz'
-  version 'master'
-  sha256 '99e43b253985919f3d7e1d9880ce6a7168e5739b2febc61426a81229d0e5c32e'
+  url 'https://github.com/rakyll/hey/archive/v0.1.0.tar.gz'
+  sha256 'a8127634e21897c587c6c375f88121e907ce4af8bf71374db44c5d752ae4a296'
 
   depends_on 'go' => :build
 
