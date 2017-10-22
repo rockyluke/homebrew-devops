@@ -16,7 +16,7 @@ Find a complete list in [FORMULAE](https://github.com/rockyluke/homebrew-devops/
 * apireaper ([github.com/vp-noc/apireaper](https://github.com/vp-noc/apireaper/))
 * bolt ([github.com/puppetlabs/bolt](https://github.com/puppetlabs/bolt/))
 * c2go ([github.com/elliotchance/c2go](https://github.com/elliotchance/c2go/))
-* drac-kvm ([github.com/paulmaddox/drac-kvm](https://github.com/paulmaddox/drac-kvm/))
+* drac-kvm ([github.com/rockyluke/drac-kvm](https://github.com/rockyluke/drac-kvm/))
 * exabgp ([github.com/exa-networks/exabgp](https://github.com/exa-networks/exabgp/))
 * flint ([github.com/pengwynn/flint](https://github.com/pengwynn/flint/))
 * git-sweep ([github.com/arc90/git-sweep](https://github.com/arc90/git-sweep/))
@@ -38,6 +38,7 @@ Find a complete list in [FORMULAE](https://github.com/rockyluke/homebrew-devops/
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
 * sup ([github.com/sup-heliotrope/sup](https://github.com/sup-heliotrope/sup/))
 * travis ([github.com/travis-ci/travis.rb](https://github.com/travis-ci/travis.rb/))
+* yaml-lint ([github.com/pryz/yaml-lint](https://github.com/pryz/yaml-lint/))
 * yamllint ([github.com/adrienverge/yamllint](https://github.com/adrienverge/yamllint/))
 
 ## Usage
