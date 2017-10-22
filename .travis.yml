@@ -7,6 +7,7 @@ before_install:
   - brew tap rockyluke/devops
 
 install:
+  - ruby --version
   - brew install apireaper
   # - brew install bolt
   - brew install c2go
@@ -21,10 +22,6 @@ install:
   # - brew install i2cssh
   - brew install lunchy
   - brew install markdownlint
-  - brew install millipede-c
-  - brew install millipede-cpp
-  - brew install millipede-go
-  - brew install millipede-python
   # - brew install modulesync
   - brew install monitoringreporter
   - brew install pup
@@ -34,19 +31,35 @@ install:
   - brew install pylint
   - brew install pyupio
   - brew install rubocop
+  # - brew install sup
   - brew install yamllint
 
 script:
-  # - brew test bolt
-  - brew test flint
-  - brew test golint
-  # - brew test i2cssh
-  - brew test markdownlint
-  # - brew test modulesync
-  - brew test pup
-  - brew test puppet-lint
-  - brew test rubocop
-  - brew test yamllint
+  - apireaper help
+  # - bolt --help
+  - c2go -v
+  - drac-kvm --help
+  - exabgp --help
+  - flint --help
+  - git-sweep --help
+  - gitlint --help
+  # - gocyclo
+  - golint
+  # - hey
+  # - i2cssh --help
+  - lunchy --help
+  - mdl --help
+  # - msync --help
+  - monitoringreporter help
+  - pup --help
+  - puppet-lint --help
+  - pycodestyle --help
+  - pydocstyle --help
+  - pylint --help
+  - pyup --help
+  - rubocop --help
+  # - sup --help
+  - yamllint --help
 
 notifications:
   email:
