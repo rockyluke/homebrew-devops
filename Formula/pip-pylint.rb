@@ -35,6 +35,11 @@ class PipPylint < Formula
     sha256 'dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f'
   end
 
+  resource 'six' do
+    url 'https://pypi.python.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz'
+    sha256 '70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9'
+  end
+
   resource 'wrapt' do
     url 'https://pypi.python.org/packages/a3/bb/525e9de0a220060394f4aa34fdf6200853581803d92714ae41fc3556e7d7/wrapt-1.10.10.tar.gz'
     sha256 '42160c91b77f1bc64a955890038e02f2f72986c01d462d53cb6cb039b995cdd9'
