@@ -34,11 +34,10 @@ Find a complete list in [FORMULAE](https://github.com/rockyluke/homebrew-devops/
 * pycodestyle ([github.com/pycqa/pycodestyle](https://github.com/pycqa/pycodestyle/))
 * pydocstyle ([github.com/pycqa/pydocstyle](https://github.com/pycqa/pydocstyle/))
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
-* pyupio ([github.com/pyupio/pyup](https://github.com/pyupio/pyup/))
+* pyupio (or pyup) ([github.com/pyupio/pyup](https://github.com/pyupio/pyup/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
 * sup ([github.com/sup-heliotrope/sup](https://github.com/sup-heliotrope/sup/))
 * travis ([github.com/travis-ci/travis.rb](https://github.com/travis-ci/travis.rb/))
-* whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
 * yamllint ([github.com/adrienverge/yamllint](https://github.com/adrienverge/yamllint/))
 
 ## Usage
