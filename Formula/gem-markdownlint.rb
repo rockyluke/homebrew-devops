@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemMarkdownlint < Formula
   desc 'Linter for Markdown files.'
   homepage 'https://github.com/mivok/markdownlint/'
@@ -22,7 +24,7 @@ class GemMarkdownlint < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install mdl failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

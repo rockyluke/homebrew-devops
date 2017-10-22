@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemSup < Formula
   desc 'Sup is a console-based email client for people with a lot of email.'
   homepage 'https://github.com/sup-heliotrope/sup/'
@@ -21,7 +23,7 @@ class GemSup < Formula
            '--no-document',
            '--no-wrapper'
 
-    raise 'gem install sup failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

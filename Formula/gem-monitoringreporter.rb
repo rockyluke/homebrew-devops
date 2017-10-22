@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemMonitoringreporter < Formula
   desc 'MonitoringReporter is a simple tool to request monitoring tool.'
   homepage 'https://github.com/vp-noc/monitoringreporter/'
@@ -22,7 +24,7 @@ class GemMonitoringreporter < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install monitoringreporter failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

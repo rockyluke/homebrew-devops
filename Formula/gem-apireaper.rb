@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemApireaper < Formula
   desc 'APIReaper is a simple tool to assess an API and its answer.'
   homepage 'https://github.com/vp-noc/apireaper/'
@@ -22,7 +24,7 @@ class GemApireaper < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install apireaper failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

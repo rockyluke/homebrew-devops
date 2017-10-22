@@ -1,5 +1,4 @@
 ---
-
 Style/Documentation:
   Enabled: false
 
@@ -17,3 +16,4 @@ Metrics/AbcSize:
 
 Metrics/LineLength:
   Enabled: false
+# EOF

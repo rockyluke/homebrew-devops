@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemBolt < Formula
   desc ' Execute commands remotely over SSH and WinRM'
   homepage 'https://github.com/puppetlabs/bolt/'
@@ -22,7 +24,7 @@ class GemBolt < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install bolt failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath
