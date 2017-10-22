@@ -38,7 +38,7 @@ script:
   - apireaper help
   # - bolt --help
   - c2go -v
-  - drac-kvm --help
+  # - drac-kvm --help
   - exabgp --help
   - flint --help
   - git-sweep --help

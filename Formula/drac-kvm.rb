@@ -3,8 +3,8 @@
 class DracKvm < Formula
   desc 'Simple CLI launcher for Dell DRAC KVM sessions.'
   homepage 'https://github.com/rockyluke/drac-kvm/'
-  url 'https://github.com/rockyluke/drac-kvm/archive/v1.0.2.tar.gz'
-  sha256 'ad0e42be3673de8a5ff537659894a66ab5662fefce84d25fc10c182507fe6278'
+  url 'https://github.com/rockyluke/drac-kvm/archive/v1.0.3.tar.gz'
+  sha256 '4d5f6c56a07813d05b5ad94ecd2b14651884dbe03d3bd198f61b1e7e84855044'
 
   depends_on 'go' => :build
 
