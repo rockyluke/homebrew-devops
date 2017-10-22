@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemRubocop < Formula
   desc 'Automatic Ruby code style checking tool.'
   homepage 'https://github.com/bbatsov/rubocop/'
@@ -22,7 +24,7 @@ class GemRubocop < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install rubocop failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

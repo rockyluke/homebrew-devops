@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemI2cssh < Formula
   desc 'CsshX like cluster ssh using iTerm2 panes.'
   homepage 'https://github.com/wouterdebie/i2cssh/'
@@ -22,7 +24,7 @@ class GemI2cssh < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install i2cssh failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

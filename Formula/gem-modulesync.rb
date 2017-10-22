@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemModulesync < Formula
   desc 'Synchronize common files between GitHub module repositories.'
   homepage 'https://github.com/voxpupuli/modulesync/'
@@ -22,7 +24,7 @@ class GemModulesync < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install modulesync failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

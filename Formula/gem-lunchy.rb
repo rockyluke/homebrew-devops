@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemLunchy < Formula
   desc 'Friendly wrapper around launchct.'
   homepage 'https://github.com/eddiezane/lunchy/'
@@ -22,7 +24,7 @@ class GemLunchy < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install lunchy failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

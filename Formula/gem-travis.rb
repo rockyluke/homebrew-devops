@@ -1,5 +1,7 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemTravis < Formula
   desc 'CLI and Ruby client library for Travis CI'
   homepage 'https://github.com/travis-ci/travis.rb/'
@@ -22,7 +24,7 @@ class GemTravis < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install travis failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath

@@ -1,10 +1,12 @@
 # -*- ruby -*-
 
+require 'English'
+
 class GemPuppetLint < Formula
   desc 'Linter for Puppet files.'
   homepage 'https://github.com/rodjek/puppet-lint/'
-  url 'https://rubygems.org/gems/puppet-lint-2.2.1.gem'
-  sha256 'f7f191e8bcd8ff35744bd5197548d283ecc1e117e08b6a3f0e614cb306140d87'
+  url 'https://rubygems.org/gems/puppet-lint-2.3.3.gem'
+  sha256 '8d3f294b1220253580ec7b19ff8a88e2065566d3da47adbefd88a7e178796e23'
 
   def install
     ENV['GEM_HOME'] = prefix
@@ -22,7 +24,7 @@ class GemPuppetLint < Formula
            '--no-wrapper',
            '--no-user-install'
 
-    raise 'gem install puppet-lint failed with status #{$?.exitstatus}' unless $?.success?
+    raise "gem install failed with status #{$CHILD_STATUS.exitstatus}" unless $CHILD_STATUS.success?
 
     bin.rmtree if bin.exist?
     bin.mkpath
