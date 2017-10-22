@@ -9,7 +9,9 @@ didn't include with macOS.
 
 ## Description
 
-Devops formulae for the Homebrew package manager including the following tools:
+Devops formulae for the Homebrew package manager including the following tools.
+
+Find a complete list in [FORMULAE](https://github.com/rockyluke/homebrew-devops/blob/master/FORMULAE.md).
 
 * apireaper ([github.com/vp-noc/apireaper](https://github.com/vp-noc/apireaper/))
 * bolt ([github.com/puppetlabs/bolt](https://github.com/puppetlabs/bolt/))
@@ -25,10 +27,6 @@ Devops formulae for the Homebrew package manager including the following tools:
 * i2cssh ([github.com/wouterdebie/i2cssh](https://github.com/wouterdebie/i2cssh/))
 * lunchy ([github.com/eddiezane/lunchy](https://github.com/eddiezane/lunchy/))
 * markdownlint (or mdl) ([github.com/mivok/markdownlint](https://github.com/mivok/markdownlint/))
-* millipede-c ([github.com/getmillipede/millipede-c](https://github.com/getmillipede/millipede-c/))
-* millipede-cpp ([github.com/getmillipede/millipede-cpp](https://github.com/getmillipede/millipede-cpp/))
-* millipede-go ([github.com/getmillipede/millipede-go](https://github.com/getmillipede/millipede-go/))
-* millipede-python ([github.com/getmillipede/millipede-python](https://github.com/getmillipede/millipede-python/))
 * modulesync (or msync) ([github.com/voxpupuli/modulesync](https://github.com/voxpupuli/modulesync/))
 * monitoringreporter ([github.com/vp-noc/monitoringreporter](https://github.com/vp-noc/monitoringreporter/))
 * pup ([github.com/ericchiang/pup](https://github.com/ericchiang/pup/))
@@ -38,11 +36,10 @@ Devops formulae for the Homebrew package manager including the following tools:
 * pylint ([github.com/pycqa/pylint](https://github.com/pycqa/pylint/))
 * pyupio ([github.com/pyupio/pyup](https://github.com/pyupio/pyup/))
 * rubocop ([github.com/bbatsov/rubocop](https://github.com/bbatsov/rubocop/))
-* sup([github.com/sup-heliotrope/sup](https://github.com/sup-heliotrope/sup/))
+* sup ([github.com/sup-heliotrope/sup](https://github.com/sup-heliotrope/sup/))
+* travis ([github.com/travis-ci/travis.rb](https://github.com/travis-ci/travis.rb/))
 * whereami ([github.com/kootenpv/whereami](https://github.com/kootenpv/whereami/))
 * yamllint ([github.com/adrienverge/yamllint](https://github.com/adrienverge/yamllint/))
-
-Find a complete list in [FORMULAE](https://github.com/rockyluke/homebrew-devops/blob/master/FORMULAE.md).
 
 ## Usage
 
