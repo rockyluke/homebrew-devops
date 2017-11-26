@@ -1,4 +1,5 @@
 # homebrew-devops ![License badge][license-img] [![Build Status][build-img]][build-url] [![Codacy Status][codacy-img]][codacy-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frockyluke%2Fhomebrew-devops.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frockyluke%2Fhomebrew-devops?ref=badge_shield)
 
 ## Overview
 
@@ -81,3 +82,7 @@ Feel free to contribute on GitHub.
 [build-url]: https://travis-ci.org/rockyluke/homebrew-devops
 [codacy-img]: https://api.codacy.com/project/badge/Grade/1589449b5e2f4529be8d4d9514154f53
 [codacy-url]: https://www.codacy.com/app/rockyluke/homebrew-devops
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frockyluke%2Fhomebrew-devops.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frockyluke%2Fhomebrew-devops?ref=badge_large)
