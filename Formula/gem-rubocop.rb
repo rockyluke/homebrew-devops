@@ -5,8 +5,8 @@ require 'English'
 class GemRubocop < Formula
   desc 'Automatic Ruby code style checking tool.'
   homepage 'https://github.com/bbatsov/rubocop/'
-  url 'https://rubygems.org/gems/rubocop-0.51.0.gem'
-  sha256 'c131a5c063600cd31cf49c69130c16b94a6bd7d6a35f6f00c587ac6330bdc233'
+  url 'https://rubygems.org/gems/rubocop-0.52.1.gem'
+  sha256 '4ec659892e86c64ec25e7a543b4a717f9ee6e9450bdb9541e0d3492b43ce4234'
 
   def install
     ENV['GEM_HOME'] = prefix
