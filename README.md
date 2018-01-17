@@ -17,6 +17,7 @@ Find a complete & detailed list in [FORMULAE][formulae].
 * apireaper
 * bolt
 * c2go
+* checkipaconsistency (or cipa)
 * drac-kvm
 * exabgp
 * flint

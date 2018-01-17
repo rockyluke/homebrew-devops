@@ -6,6 +6,8 @@
   *Execute commands remotely over SSH and WinRM.*
 * c2go ([github.com/elliotchance/c2go](https://github.com/elliotchance/c2go/))
   *A tool for transpiling C to Go.*
+* checkipaconsistency (or cipa) ([github.com/peterpakos/checkipaconsistency](https://github.com/peterpakos/checkipaconsistency/))
+  *Tool to check consistency across FreeIPA servers.*
 * drac-kvm ([github.com/rockyluke/drac-kvm](https://github.com/rockyluke/drac-kvm/))
   *CLI launcher for Dell DRAC and HP iLO.*
 * exabgp ([github.com/exa-networks/exabgp](https://github.com/exa-networks/exabgp/))
