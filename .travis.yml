@@ -1,3 +1,4 @@
+---
 os: osx
 osx_image: xcode9.1
 
@@ -11,6 +12,7 @@ install:
   - brew install apireaper
   # - brew install bolt
   - brew install c2go
+  - brew install checkipaconsistency
   - brew install drac-kvm
   - brew install exabgp
   - brew install flint
@@ -39,6 +41,7 @@ script:
   - apireaper help
   # - bolt --help
   - c2go -v
+  - cipa --help
   # - drac-kvm --help
   - exabgp --help
   - flint --help
@@ -67,3 +70,4 @@ notifications:
   email:
     on_success: never
     on_failure: always
+# EOF
