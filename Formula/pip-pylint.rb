@@ -8,7 +8,7 @@ class PipPylint < Formula
   url 'https://pypi.python.org/packages/6c/8d/bc0b9c8ebb3ab03f6f830b1f87110291f0aef92350266a1faa4f25f0bfee/pylint-1.7.0.tar.gz'
   sha256 '27dec85ce32fe5cb78eaad11c165cfb53479ad92930783f04016eebe41f28a3a'
 
-  depends_on :python3
+  depends_on "python3"
 
   resource 'astroid' do
     url 'https://pypi.python.org/packages/64/2b/b61398454f3f64c00c88d5858d857b385c1a4dd3445f36247ba8bc74678f/astroid-1.5.1.tar.gz'
