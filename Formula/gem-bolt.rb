@@ -5,8 +5,8 @@ require 'English'
 class GemBolt < Formula
   desc ' Execute commands remotely over SSH and WinRM'
   homepage 'https://github.com/puppetlabs/bolt/'
-  url 'https://rubygems.org/gems/bolt-0.13.0.gem'
-  sha256 '9128a3f9e6756c97d4162f322af50cecebd07f7ce266c18e9c580d049de15b39'
+  url 'https://rubygems.org/gems/bolt-0.17.1.gem'
+  sha256 '597fc1e15653b9fa5fe782f54e49c356e8c39d444aea493182e7f65f4ef4ca85'
 
   def install
     ENV['GEM_HOME'] = prefix
