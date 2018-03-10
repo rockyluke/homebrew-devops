@@ -5,8 +5,8 @@ require 'English'
 class GemModulesync < Formula
   desc 'Synchronize common files between GitHub module repositories.'
   homepage 'https://github.com/voxpupuli/modulesync/'
-  url 'https://rubygems.org/gems/modulesync-0.8.2.gem'
-  sha256 '2e51f0e99f6d29eb0b73806b2655217c67065920fed104c427b7219b8beca606'
+  url 'https://rubygems.org/gems/modulesync-0.9.0.gem'
+  sha256 'e30d5ca61cce98603dc5c921d977080fc857e3b600fa5467901b3a420c369787'
 
   def install
     ENV['GEM_HOME'] = prefix
