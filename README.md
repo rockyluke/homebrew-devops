@@ -1,4 +1,7 @@
-# homebrew-devops ![License][license-img] [![Build][build-img]][build-url]
+# homebrew-devops
+
+[![License][license-img]][license-url]
+[![Build][build-img]][build-url]
 
 ## Overview
 
@@ -68,6 +71,8 @@ brew install pylint
 
 Feel free to contribute on GitHub.
 
+## Miscellaneous
+
 ```
     ╚⊙ ⊙╝
   ╚═(███)═╝
@@ -79,6 +84,7 @@ Feel free to contribute on GitHub.
 ```
 
 [license-img]: https://img.shields.io/badge/license-ISC-blue.svg
+[license-url]: LICENSE
 [build-img]: https://travis-ci.org/rockyluke/homebrew-devops.svg?branch=master
 [build-url]: https://travis-ci.org/rockyluke/homebrew-devops
 [formulae]: https://github.com/rockyluke/homebrew-devops/blob/master/FORMULAE.md
