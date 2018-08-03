@@ -9,7 +9,7 @@ before_install:
 
 install:
   - ruby --version
-  - brew install apireaper
+  # - brew install apireaper
   # - brew install bolt
   - brew install c2go
   - brew install checkipaconsistency
