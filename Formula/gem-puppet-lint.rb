@@ -5,8 +5,8 @@ require 'English'
 class GemPuppetLint < Formula
   desc 'Linter for Puppet files.'
   homepage 'https://github.com/rodjek/puppet-lint/'
-  url 'https://rubygems.org/gems/puppet-lint-2.3.3.gem'
-  sha256 '8d3f294b1220253580ec7b19ff8a88e2065566d3da47adbefd88a7e178796e23'
+  url 'https://rubygems.org/gems/puppet-lint-2.3.6.gem'
+  sha256 '3a4e0bb19eca582cd2a37dac6f45c417cf50ac28f988d087be2635400815d3f3'
 
   def install
     ENV['GEM_HOME'] = prefix

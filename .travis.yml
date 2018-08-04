@@ -9,8 +9,9 @@ before_install:
 
 install:
   - ruby --version
-  # - brew install apireaper
-  # - brew install bolt
+
+script:
+  - brew install bolt
   - brew install c2go
   - brew install checkipaconsistency
   - brew install drac-kvm
@@ -21,50 +22,19 @@ install:
   - brew install gocyclo
   - brew install golint
   - brew install hey
-  # - brew install i2cssh
+  - brew install i2cssh
   - brew install lunchy
   - brew install markdownlint
-  # - brew install modulesync
-  - brew install monitoringreporter
+  - brew install modulesync
   - brew install pup
   - brew install puppet-lint
   - brew install pycodestyle
   - brew install pydocstyle
   - brew install pylint
   - brew install pyupio
-  # - brew install rubocop
-  # - brew install sup
+  - brew install rubocop
   - brew install yaml-lint
   - brew install yamllint
-
-script:
-  - apireaper help
-  # - bolt --help
-  - c2go -v
-  - cipa --help
-  # - drac-kvm --help
-  - exabgp --help
-  - flint --help
-  - git-sweep --help
-  - gitlint --help
-  # - gocyclo
-  - golint
-  # - hey
-  # - i2cssh --help
-  - lunchy --help
-  - mdl --help
-  # - msync --help
-  - monitoringreporter help
-  - pup --help
-  - puppet-lint --help
-  - pycodestyle --help
-  - pydocstyle --help
-  - pylint --help
-  - pyup --help
-  # - rubocop --help
-  # - sup --help
-  - yaml-lint
-  - yamllint --help
 
 notifications:
   email:
