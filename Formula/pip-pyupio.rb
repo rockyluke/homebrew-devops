@@ -5,8 +5,8 @@ class PipPyupio < Formula
 
   desc 'Tool to update all your projects requirement.'
   homepage 'https://github.com/pyupio/pyup/'
-  url 'https://pypi.python.org/packages/e6/98/f837220fd644e918e54e44fd264f32e7090b6225efaf8564656859ee1564/pyupio-0.8.2.tar.gz'
-  sha256 'f1f2e2ca243cdc9e7508e2482d68be428d23aa1d8d2daac9adbc6d69ad26a75d'
+  url 'https://files.pythonhosted.org/packages/52/78/0d4d40b54b0f4751386ed91f4d60497f89fe7bc99cb1ef1cd8c072ca5a7d/pyupio-1.0.1.tar.gz'
+  sha256 '92bf30d1c8768a4ea3b95f847bfc99760ca684072605214415d9dcf7c1b435bf'
 
   depends_on 'python3'
 
@@ -26,8 +26,8 @@ class PipPyupio < Formula
   end
 
   resource 'dparse' do
-    url 'https://pypi.python.org/packages/40/78/f5d9458904c0586b2d6d07c6bdd821c443ffc54983e0ca9e08cbcbcf3d92/dparse-0.2.1.tar.gz'
-    sha256 '7c9f9175d8fd83aed6d31a16c1a3ba4c38189120f1df416b46029d940b4ef582'
+    url 'https://files.pythonhosted.org/packages/8d/89/39cdc1b885e0af65fd172be21c318c3c750d1fbca0582c7b7ffe9873ed78/dparse-0.4.1.tar.gz'
+    sha256 '00a5fdfa900629e5159bf3600d44905b333f4059a3366f28e0dbd13eeab17b19'
   end
 
   resource 'hashin-pyup' do
@@ -56,8 +56,8 @@ class PipPyupio < Formula
   end
 
   resource 'python-gitlab' do
-    url 'https://pypi.python.org/packages/b4/94/aab17c41847b8c2bf63bd5b4caf28df004328579e4a9ad1c7c4ae720c26a/python-gitlab-1.0.2.tar.gz'
-    sha256 '925bb16e72cdbf9a757e37e9cb3e8c8ed8c67399a416a70904c18d26c5291344'
+    url 'https://files.pythonhosted.org/packages/d6/29/56dcfa743d4fcb29af9258a83b644a81decdf82fdeaf76d6c9f3a2085a77/python-gitlab-1.5.1.tar.gz'
+    sha256 '807ee192d51286f21375f2e5870b2ebaec2af74b4359f5e72646cf49dff6448d'
   end
 
   resource 'pygithub' do
@@ -76,8 +76,8 @@ class PipPyupio < Formula
   end
 
   resource 'pyyaml' do
-    url 'https://pypi.python.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz'
-    sha256 '592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab'
+    url 'https://files.pythonhosted.org/packages/9e/a3/1d13970c3f36777c583f136c136f804d70f500168edc1edea6daa7200769/PyYAML-3.13.tar.gz'
+    sha256 '3ef3092145e9b70e3ddd2c7ad59bdd0252a94dfe3949721633e41344de00a6bf'
   end
 
   resource 'requests' do
